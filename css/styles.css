@@ -1032,15 +1032,18 @@ img {
         max-width: 712px;
     }
 
+    .section-inner {
+        width: calc((100% - 24px) / 2);
+    }
+
     .team-inner {
-        width: calc((100% - 3 * 24px) / 4);
         gap: 64px 24px;
     }
 
     /* Portfolio section */
 
-    .portfolio-inner {
-        width: calc((100% - 3 * 24px) / 4);
+    .portfolio-item {
+        width: calc((100% - 24px) / 2);
     }
 
     /* Footer */
@@ -1165,17 +1168,25 @@ img {
 
     /* Team section */
 
+    .team>.container {
+        max-width: 1158px;
+    }
+
     .section-team {
         padding: 120px 0;
     }
 
-    .team-inner {
-        width: calc((100% - 24px) / 4);
-        gap: 64px 24px;
+    .section-inner {
+        width: calc((100% - 3*24px) / 4);
+        gap: 24px;
 
     }
 
-    .portfolio-inner {
+    .team-inner {
+        flex-wrap: nowrap;
+    }
+
+    .portfolio-item {
         width: calc((100% - 48px) / 3);
 
     }
