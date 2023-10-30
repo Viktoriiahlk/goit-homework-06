@@ -49,10 +49,6 @@ img {
 
 /* Header */
 
-.header-inner {
-    padding: 17.5px 16px;
-}
-
 .header {
     border-bottom: 1px solid #E7E9FC;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -611,7 +607,6 @@ img {
 }
 
 .backdrop-footer {
-    /* margin-left: auto; */
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -1001,7 +996,7 @@ img {
     .address-header {
         display: inline-block;
         color: var(--color-main);
-        font-size: 16px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
@@ -1053,7 +1048,6 @@ img {
         flex-wrap: wrap;
         justify-content: start;
         gap: 72px 24px;
-        padding: 96px 108px;
     }
 
     .logo-footer {
@@ -1111,6 +1105,10 @@ img {
     .header-list-menu {
         display: flex;
         flex-direction: row;
+    }
+
+    .address-header {
+        font-size: 16px;
     }
 
     @media screen and (min-device-pixel-ratio: 2),
